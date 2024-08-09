@@ -1,0 +1,5 @@
+O que significa?
+Significa que houve a redução de uma dimensão no conjunto de dados, de maneira a preservar ao máximo as suas características de dispersão. Isso é atingido ao, de maneira reduzida, calcular o corte onde há a maior dispersão dos valores das características, pois, desse modo, é possível unificar multiplas dimensões. Essa operação tem como vantagem a simplificação da separabilidade de conjuntos complexos, porém, essa vantagem é situacional, pois essa redução no número de dimensões acarreta na perda da interpretabilidade dos dados e também em certo nível de perda de informação.
+
+Quais os resultados?
+Neste modelo, os resultados não foram ideais de um ponto de vista de separabilidade. Por mais que preservada determinada separação, o conjunto pós LDA resultou em muita perda de informação, o que torna a separação menos precisa. No conjunto anterior, por mais que de maneira complexa devido à maior, era possível separar precisamente as duas classes. Uma alternativa de seleção de features mais eficiente neste caso seria a remoção da feature Z, gerando um corte superior e mantendo os grupos separados em X e Y.
